@@ -11,7 +11,7 @@
   - BLOSUM62 행렬을 이용한 residue 특성 인코딩 (20x20 matrix)
   - Residue 최대 개수를 고려하여 패딩 적용
 
--리간드 특징 (Ligand Features)
+- 리간드 특징 (Ligand Features)
   - Graph Convolution 적용
   - 원자 특징 벡터 (atomwise feature): 길이 82
   - 원자 종류 (63), Degree (6), Explicit valence (6), Implicit valence (6), Aromatic (1) → 총 82개 요소
